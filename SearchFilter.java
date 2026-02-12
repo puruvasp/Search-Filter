@@ -17,12 +17,10 @@ public class SearchFilter {
         String college;
 
         Student(String name,String batch, String course, String college){
-
             this.name = name;
             this.batch = batch;
             this.course = course;
             this.college = college;
-
         }
         @Override
         public String toString() {
